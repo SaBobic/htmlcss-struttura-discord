@@ -17,6 +17,10 @@
     width: 900px;
 }
 
+.align-center{
+    margin: 0 auto;
+}
+
 
 /* Header */
 
@@ -30,7 +34,7 @@ header{
     height: 70px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 80px;
+    margin-bottom: 80px;
 }
 
 .logo, .login, .registrati{
@@ -47,14 +51,9 @@ nav{
     background-color: blueviolet;
     height: 200px;
     width: 600px;
-    margin: 0 auto;
 }
 
 /* Main */
-
-main{
-    margin: 0 auto;
-}
 
 .image-text{
     background-color: brown;
@@ -94,7 +93,6 @@ footer{
 }
 
 .first-section-footer{
-    margin: 0 auto;
     height: 400px;
     background-color: blueviolet;
     display: flex;
@@ -102,7 +100,6 @@ footer{
 }
 
 .second-section-footer{
-    margin: 0 auto;
     height: 100px;
     background-color: green;
     display: flex;
