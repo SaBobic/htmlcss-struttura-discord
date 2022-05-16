@@ -14,26 +14,25 @@
 /* Utilities */
 
 .container{
-    width: 900px;
-}
-
-.align-center{
+    width: 1400px;
     margin: 0 auto;
 }
 
+.flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Header */
 
 .header-row{
-    height: 450px;
+    height: 500px;
     background-color: blue;
     margin-bottom: 100px;
 }
 
 header{
     height: 70px;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 80px;
 }
 
@@ -49,16 +48,18 @@ nav{
 
 .header-content{
     background-color: blueviolet;
-    height: 200px;
-    width: 600px;
+    height: 250px;
+    width: 800px;
+    margin-top: 80px;
 }
 
 /* Main */
 
 .image-text{
     background-color: brown;
-    height: 500px;
+    height: 600px;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .image{
@@ -71,16 +72,13 @@ nav{
     width: 30%;
 }
 
-.tecnologia-affidabile{
-}
-
 .fixed-height{
-    height: 150px;
+    height: 200px;
     background-color: blueviolet;
 }
 
 .tecnologia-affidabile > .immagine{
-    height: 400px;
+    height: 600px;
     background-color: black;
 }
 
@@ -89,21 +87,17 @@ nav{
 footer{
     margin-top: 100px;
     background-color: #23272A;
-    height: 550px;
+    height: 600px;
 }
 
 .first-section-footer{
-    height: 400px;
+    height: 450px;
     background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
 }
 
 .second-section-footer{
     height: 100px;
     background-color: green;
-    display: flex;
-    justify-content: space-between;
 }
 
 .intestazione-footer{
@@ -114,8 +108,6 @@ footer{
 .menu-footer{
     width: calc(100% / 3 * 2);
     background-color: yellowgreen;
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer-menu-section{
