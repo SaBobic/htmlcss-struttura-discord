@@ -1,0 +1,100 @@
+/* Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+
+
+
+/* Utilities */
+
+.container{
+    width: 900px;
+}
+
+
+/* Header */
+
+.header-row{
+    height: 450px;
+    background-color: blue;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 80px;
+}
+
+.logo, .login{
+    width: 15%;
+    background-color: black;
+}
+
+nav{
+    width: 80%;
+    background-color: aquamarine;
+}
+
+.header-content{
+    background-color: blueviolet;
+    height: 200px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Main */
+
+main{
+    margin: 0 auto;
+}
+
+.image-text{
+    background-color: brown;
+    height: 500px;
+    display: flex;
+}
+
+.image{
+    background-color: red;
+    width: 70%;
+}
+
+.text{
+    background-color: yellow;
+    width: 30%;
+}
+
+.tecnologia-affidabile{
+    padding: 50px 0;
+}
+
+.fixed-height{
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.tecnologia-affidabile > .immagine{
+    height: 400px;
+    background-color: black;
+}
+
+/* Footer */
+
+footer{
+    background-color: #23272A;
+    height: 500px;
+}
+
+.first-section-footer{
+    margin: 0 auto;
+    height: 370px;
+    background-color: blueviolet;
+
+}
