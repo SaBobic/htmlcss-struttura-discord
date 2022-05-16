@@ -23,6 +23,7 @@
 .header-row{
     height: 450px;
     background-color: blue;
+    margin-bottom: 100px;
 }
 
 header{
@@ -32,7 +33,7 @@ header{
     margin: 0 auto 80px;
 }
 
-.logo, .login{
+.logo, .login, .registrati{
     width: 15%;
     background-color: black;
 }
@@ -72,7 +73,6 @@ main{
 }
 
 .tecnologia-affidabile{
-    padding: 50px 0;
 }
 
 .fixed-height{
@@ -88,13 +88,40 @@ main{
 /* Footer */
 
 footer{
+    margin-top: 100px;
     background-color: #23272A;
-    height: 500px;
+    height: 550px;
 }
 
 .first-section-footer{
     margin: 0 auto;
-    height: 370px;
+    height: 400px;
     background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
 
+.second-section-footer{
+    margin: 0 auto;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intestazione-footer{
+    width: calc(100% / 3);
+    background-color: aquamarine;
+}
+
+.menu-footer{
+    width: calc(100% / 3 * 2);
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-section{
+    width: 25%;
+    border: 1px solid black;
 }
