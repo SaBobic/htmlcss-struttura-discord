@@ -20,7 +20,6 @@
 
 .flex-justify-between{
     display: flex;
-    justify-content: space-between;
 }
 
 /* Header */
@@ -31,12 +30,9 @@
     margin-bottom: 100px;
 }
 
-header{
+header.container{
     height: 70px;
-}
-
-.header-row .container{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .logo, .login, .registrati{
@@ -58,7 +54,6 @@ nav{
 /* Main */
 
 .image-text{
-    background-color: brown;
     height: 600px;
     display: flex;
     margin-bottom: 100px;
