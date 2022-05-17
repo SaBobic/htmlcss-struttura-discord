@@ -33,6 +33,9 @@
 
 header{
     height: 70px;
+}
+
+.header-row .container{
     margin-bottom: 80px;
 }
 
@@ -50,7 +53,6 @@ nav{
     background-color: blueviolet;
     height: 250px;
     width: 800px;
-    margin-top: 80px;
 }
 
 /* Main */
