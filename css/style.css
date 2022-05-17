@@ -21,6 +21,14 @@
     display: flex;
 }
 
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #F6F6F6;
+}
+
 /* Header */
 
 header{
@@ -61,10 +69,13 @@ nav{
 
 /* Main */
 
-.image-text{
-    height: 600px;
+main section{
+    padding: 100px 0;
     display: flex;
-    margin-bottom: 100px;
+}
+
+.section-row{
+    height: 600px;
 }
 
 .image{
@@ -77,20 +88,19 @@ nav{
     width: 30%;
 }
 
-.fixed-height{
-    height: 200px;
-    background-color: blueviolet;
+.section-column{
+    flex-direction: column;
 }
 
-.tecnologia-affidabile > .immagine{
-    height: 600px;
-    background-color: black;
+.section-column div{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
 }
 
 /* Footer */
 
 footer{
-    margin-top: 100px;
     background-color: #23272A;
     padding: 50px 0;
 }
