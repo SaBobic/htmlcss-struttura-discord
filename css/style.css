@@ -10,7 +10,6 @@
 
 
 
-
 /* Utilities */
 
 .container{
@@ -18,37 +17,46 @@
     margin: 0 auto;
 }
 
-.flex-justify-between{
+.d-flex{
     display: flex;
 }
 
 /* Header */
 
-.header-row{
-    height: 500px;
+header{
     background-color: blue;
-    margin-bottom: 100px;
 }
 
-header.container{
+.header-row{
+    min-width: 1400px;
     height: 70px;
-    margin-bottom: 100px;
+    background-color: aqua;
 }
 
-.logo, .login, .registrati{
+nav{
+    height: 100%;
+}
+
+.logo, .login{
     width: 15%;
     background-color: black;
 }
 
-nav{
+.main-menu{
     width: 80%;
-    background-color: aquamarine;
+    background-color: blueviolet;
 }
 
-.header-content{
+.jumbotron-row{
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron{
     background-color: blueviolet;
-    height: 250px;
-    width: 800px;
+    height: 300px;
+    width: 50%;
 }
 
 /* Main */
